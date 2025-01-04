@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Photographer</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="styles/home-styles.css" />
+    <link rel="stylesheet" href="styles/global-styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ee48449e08.js"
+      crossorigin="anonymous"
+      defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+      <!--Nav Logo-->
+      <a href="" class="cs-logo" aria-label="back to home">
+        <img
+          src="https://csimg.nyc3.digitaloceanspaces.com/Footer/logo-light.svg"
+          alt="logo"
+          width="210"
+          height="29"
+          aria-hidden="true"
+          decoding="async" />
+      </a>
+      <!--Navigation List-->
+      <nav class="cs-nav" role="navigation">
+        <!--Mobile Nav Toggle-->
+        <button class="cs-toggle" aria-label="mobile menu toggle">
+          <div class="cs-box" aria-hidden="true">
+            <span class="cs-line cs-line1" aria-hidden="true"></span>
+            <span class="cs-line cs-line2" aria-hidden="true"></span>
+            <span class="cs-line cs-line3" aria-hidden="true"></span>
+          </div>
+        </button>
+        <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+        <div class="cs-ul-wrapper">
+          <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+            <li class="cs-li">
+              <a href="" class="cs-li-link cs-active"> Home </a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-li-link"> About </a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-li-link"> Services </a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-li-link">Portfolio</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-li-link"> FAQ </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+      <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+      <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+        <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+        <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+    </button> -->
+    </header>
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-2219">
+      <div class="cs-container">
+        <div class="cs-content">
+          <div class="cs-author">
+            <span class="cs-name">NYC Photographer</span>
+            <span class="cs-job">Wedding Photographer</span>
+          </div>
+          <h1 class="cs-title">Love to Capture Your Best Moments</h1>
+          <p class="cs-text">
+            Authentic wedding photography emphasises candid shots that capture
+            real emotions, reactions, and interactions among the couple, their
+            families, and guests.
+          </p>
+          <div class="cs-video-group">
+            <div class="cs-wrapper">
+              <!--Compress your video and upload it to a CDN like Digital Oceans Spaces so the video file doesn't cause load time issues. You can also remove the video tag and uncomment the picture tag to use a image instead of a video. Don't forget to remove the cs-play button!-->
+              <!-- <video loading="lazy" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Videos/gym.mp4" autoplay="false"></video> -->
+              <picture class="cs-picture">
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-video.png
+                  " />
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-video.png
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-video.png"
+                  alt="body builder"
+                  width="630"
+                  height="877" />
+              </picture>
+              <button class="cs-play" aria-label="click to play video">
+                <img
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/photograph-play.svg"
+                  alt="play icon"
+                  class="cs-icon"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                  decoding="async" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <picture class="cs-background">
+          <!--Mobile Image-->
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-hero.png
+            " />
+          <!--Tablet and above Image-->
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-hero.png
+            " />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/photography-hero.png"
+            alt="photographer"
+            width="1280"
+            height="568" />
+        </picture>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Gallery Carousel           -->
+    <!-- ============================================ -->
+
+    <section id="gallery-carousel">
+      <div class="cs-container">
+        <div class="cs-content">
+          <div class="cs-flex-group">
+            <span class="cs-topper">Our Gallery</span>
+            <h2 class="cs-title">
+              Capturing Precious Moments of Your Dream Wedding
+            </h2>
+          </div>
+          <p class="cs-text">
+            Step into the love stories I’ve captured—explore a collection of
+            timeless moments in this interactive gallery.
+          </p>
+        </div>
+        <div class="cs-wrapper">
+          <div class="cs-slideshow">
+            <!-- Ensure that the the cs-slide you want to start on has the 'initial' class applied. The JS will take care of the rest -->
+            <picture class="cs-slide initial">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding1.jpg
+                " />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding1.jpg
+                " />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding1.jpg"
+                alt="formal dinner"
+                width="380"
+                height="271" />
+            </picture>
+            <picture class="cs-slide">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding7.jpg
+                " />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding7.jpg
+                " />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding7.jpg"
+                alt="formal dinner"
+                width="380"
+                height="271" />
+            </picture>
+            <picture class="cs-slide">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding10.jpg
+                " />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding10.jpg
+                " />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding10.jpg"
+                alt="formal dinner"
+                width="380"
+                height="271" />
+            </picture>
+
+            <div class="cs-slideshow-button cs-slideshow-next"></div>
+            <div class="cs-slideshow-button cs-slideshow-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Gallery                     -->
+    <!-- ============================================ -->
+
+    <section id="gallery-2234">
+      <div class="cs-container">
+        <div class="cs-content">
+          <div class="cs-flex">
+            <span class="cs-topper">Our Gallery</span>
+            <h2 class="cs-title">
+              More Moments, More Memories: A Deeper Look into Love Stories
+            </h2>
+          </div>
+          <div class="cs-flex">
+            <p class="cs-text">
+              With expertise and artistry, we capture every precious moment of
+              your wedding day—from the heartfelt exchange of intimate vows to
+              the vibrant energy of joyful celebrations, ensuring no detail goes
+              unnoticed.
+            </p>
+          </div>
+        </div>
+        <div class="cs-image-group">
+          <picture class="cs-picture cs-picture-1">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery1.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery1.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery1.png"
+              alt="formerly dress you people outside"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-2">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery2.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery2.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery2.png"
+              alt="formal dinner"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-3">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery3.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery3.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery3.png"
+              alt="formerly dress you people outside"
+              width="780"
+              height="582" />
+          </picture>
+          <picture class="cs-picture cs-picture-4">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery4.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery4.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery4.png"
+              alt="recital"
+              width="780"
+              height="582" />
+          </picture>
+          <picture class="cs-picture cs-picture-5">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery5.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery5.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery5.png"
+              alt="formal evening"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-6">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery6.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery6.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery6.png"
+              alt="formal dinner"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-7">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery7.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery7.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery7.png"
+              alt="formerly dress you people outside"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-8">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery8.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery8.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery8.png"
+              alt="formal dinner"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-9">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery9.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery9.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery9.png"
+              alt="formerly dress you people outside"
+              width="780"
+              height="582" />
+          </picture>
+          <picture class="cs-picture cs-picture-10">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery10.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery10.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery10.png"
+              alt="recital"
+              width="780"
+              height="582" />
+          </picture>
+          <picture class="cs-picture cs-picture-11">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery11.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery11.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery11.png"
+              alt="formal evening"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-12">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery12.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery12.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery12.png"
+              alt="formal dinner"
+              width="380"
+              height="271" />
+          </picture>
+          <picture class="cs-picture cs-picture-13">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery13.png
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery13.png
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Images/People/wedding-gallery13.png"
+              alt="formal dinner"
+              width="380"
+              height="271" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Meet The Team                 -->
+    <!-- ============================================ -->
+
+    <section id="meet-team-2196">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">Our Team</span>
+          <h2 class="cs-title">Meet the Heart Behind the Lens</h2>
+          <p class="cs-text">
+            Get to know the passionate photographers behind the lens—dedicated
+            storytellers who bring your wedding day to life through artistry and
+            attention to detail.
+          </p>
+        </div>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-four.png
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-four.png
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-four.png"
+                  alt="person"
+                  width="305"
+                  height="320" />
+              </picture>
+              <div class="cs-social">
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Twitter"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cs-info">
+              <span class="cs-job">Senior Photographer</span>
+              <span class="cs-name">Boulevard</span>
+            </div>
+          </li>
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-two.png
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-two.png
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-two.png"
+                  alt="person"
+                  width="305"
+                  height="320" />
+              </picture>
+              <div class="cs-social">
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Twitter"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cs-info">
+              <span class="cs-job">Photo Editor</span>
+              <span class="cs-name">Boulevard</span>
+            </div>
+          </li>
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-one.png
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-one.png
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-one.png"
+                  alt="person"
+                  width="305"
+                  height="320" />
+              </picture>
+              <div class="cs-social">
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Twitter"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cs-info">
+              <span class="cs-job">Photographer</span>
+              <span class="cs-name">Boulevard</span>
+            </div>
+          </li>
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-three.png
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-three.png
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/day-care-team-three.png"
+                  alt="person"
+                  width="305"
+                  height="320" />
+              </picture>
+              <div class="cs-social">
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Twitter"
+                  target="_blank"
+                  rel="noopener"
+                  ><i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href=""
+                  class="cs-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cs-info">
+              <span class="cs-job">Videographer</span>
+              <span class="cs-name">Boulevard</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-2131">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">What We Do</span>
+          <h2 class="cs-title">Our Special Services for You</h2>
+        </div>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <h3 class="cs-h3">Pre-Wedding Photoshoot</h3>
+              <!--Background Image-->
+              <picture class="cs-background">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg"
+                  alt="person"
+                  width="352"
+                  height="440" />
+              </picture>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <h3 class="cs-h3">Wedding Photoshoot</h3>
+              <!--Background Image-->
+              <picture class="cs-background">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding2.jpg
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding2.jpg
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding2.jpg"
+                  alt="person"
+                  width="352"
+                  height="440" />
+              </picture>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <h3 class="cs-h3">Portrait Photography</h3>
+              <!--Background Image-->
+              <picture class="cs-background">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg"
+                  alt="person"
+                  width="352"
+                  height="440" />
+              </picture>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <h3 class="cs-h3">Fashion Photography</h3>
+              <!--Background Image-->
+              <picture class="cs-background">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography2.jpg
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography2.jpg
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography2.jpg"
+                  alt="person"
+                  width="352"
+                  height="440" />
+              </picture>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <h3 class="cs-h3">Maternity Photography</h3>
+              <!--Background Image-->
+              <picture class="cs-background">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography3.jpeg
+                  " />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography3.jpeg
+                  " />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography3.jpeg"
+                  alt="person"
+                  width="352"
+                  height="440" />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs-2218">
+      <div class="cs-container">
+        <div class="cs-image-group">
+          <!--Top left image-->
+          <picture class="cs-picture cs-picture1">
+            <!--Mobile Image-->
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+              " />
+            <!--Tablet and above Image-->
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg"
+              alt="wedding photoshoot"
+              width="297"
+              height="366" />
+          </picture>
+          <!--Bottom right image-->
+          <picture class="cs-picture cs-picture2">
+            <!--Mobile Image-->
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg
+              " />
+            <!--Tablet and above Image-->
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/photography1.jpg"
+              alt="photograph of a woman"
+              width="405"
+              height="376" />
+          </picture>
+          <!--Middle image-->
+          <picture class="cs-picture cs-picture3">
+            <!--Mobile Image-->
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/children-birthday.jpg
+              " />
+            <!--Tablet and above Image-->
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/children-birthday.jpg
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/children-birthday.jpg"
+              alt="children's birthday"
+              width="218"
+              height="155" />
+          </picture>
+        </div>
+        <div class="cs-content">
+          <span class="cs-topper">Why Choose Us</span>
+          <h2 class="cs-title">
+            Your Wedding Memory will be More Memorable with Our Photography
+          </h2>
+          <p class="cs-text">
+            Your wedding day is a celebration of love, joy, and unforgettable
+            moments. Our photography captures every smile, heartfelt detail, and
+            emotion, preserving them as timeless memories. Let us help make your
+            special day even more memorable with images you'll treasure forever.
+          </p>
+          <ul class="cs-list">
+            <li class="cs-li">
+              <picture class="cs-icon-wrapper">
+                <i class="fa-icon fa-solid fa-star"></i>
+              </picture>
+              <div class="cs-flex">
+                <h3 class="cs-h3">We Bring Quality Services</h3>
+                <p class="cs-li-text">
+                  We use top-of-the-line cameras and professional tools to
+                  ensure every shot is crisp, vibrant, and beautifully captures
+                  the essence of your special day.
+                </p>
+              </div>
+            </li>
+            <li class="cs-li">
+              <picture class="cs-icon-wrapper">
+                <i class="fa-icon fa-solid fa-heart"></i>
+              </picture>
+              <div class="cs-flex">
+                <h3 class="cs-h3">Forever Make with Love</h3>
+                <p class="cs-li-text">
+                  Every member of our team is fully dedicated, giving their
+                  passion, creativity, and unwavering effort to beautifully
+                  capture every moment of your special day."
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a href="" class="cs-button-solid">Learn More</a>
+        </div>
+      </div>
+      <img
+        class="cs-graphic"
+        loading="lazy"
+        decoding="async"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/leaf11.png"
+        alt="leaf"
+        width="255"
+        height="199"
+        aria-hidden="true" />
+    </section>
+
+    <!-- ============================================ -->
+    <!--               Side By Side Pair              -->
+    <!-- ============================================ -->
+
+    <section id="RPsbs-2140">
+      <div class="cs-container">
+        <div class="cs-section1">
+          <div class="cs-content">
+            <span class="cs-topper">How We Do Things</span>
+            <h2 class="cs-title">
+              Our Approach to Capturing Your Wedding Day with Precision,
+              Passion, and Heart
+            </h2>
+          </div>
+          <picture class="cs-picture1">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-sign.jpeg
+              " />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-sign.jpeg
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-sign.jpeg"
+              alt="wedding"
+              width="688"
+              height="464"
+              aria-hidden="true" />
+          </picture>
+        </div>
+        <div class="cs-section2">
+          <picture class="cs-picture2">
+            <!--Mobile Image-->
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-table.jpeg
+              " />
+            <!--Tablet and above Image-->
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-table.jpeg
+              " />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/wedding-table.jpeg"
+              alt="wedding"
+              width="674"
+              height="504"
+              aria-hidden="true" />
+          </picture>
+          <ul class="cs-ul">
+            <li class="cs-li">
+              <h3 class="cs-h3">Personalized Experience</h3>
+              <p class="cs-li-text">
+                We take the time to understand your vision, tailoring every shot
+                to match your style and preferences, ensuring your photos
+                reflect the essence of your love story.
+              </p>
+            </li>
+            <li class="cs-li">
+              <h3 class="cs-h3">Attention to Detail</h3>
+              <p class="cs-li-text">
+                No moment is too small; we focus on the little things that make
+                your day unique—whether it’s a shared glance or the intricate
+                details of your dress—capturing them all with care.
+              </p>
+            </li>
+            <li class="cs-li">
+              <h3 class="cs-h3">Natural, Candid Moments</h3>
+              <p class="cs-li-text">
+                We believe in capturing real emotions. Our approach is focused
+                on creating an atmosphere where you can relax and be yourselves,
+                resulting in authentic, heartfelt photos.
+              </p>
+            </li>
+            <li class="cs-li">
+              <h3 class="cs-h3">Creative Vision</h3>
+              <p class="cs-li-text">
+                Using our artistic eye, we aim to create more than just photos;
+                we craft visually stunning images that tell the story of your
+                wedding day from every angle.
+              </p>
+            </li>
+            <li class="cs-li">
+              <h3 class="cs-h3">Professionalism and Experience</h3>
+              <p class="cs-li-text">
+                With years of experience and top-of-the-line equipment, we
+                ensure every shot is of the highest quality, delivering
+                beautifully composed images that you'll cherish forever.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img
+        class="cs-flower"
+        loading="lazy"
+        decoding="async"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/flower-tilted.png"
+        alt="flower"
+        width="269"
+        height="325"
+        aria-hidden="true" />
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Pricing                     -->
+    <!-- ============================================ -->
+
+    <section id="pricing-2184">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">Pricing</span>
+          <h2 class="cs-title">
+            Transparent Pricing: Quality Wedding Photography at Every Budget
+          </h2>
+          <p class="cs-text">
+            Choose the Perfect Package for Your Special Day, with No Hidden Fees
+          </p>
+        </div>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Basic</h3>
+              <p class="cs-item-text">
+                Perfect for intimate celebrations, our Basic Plan offers
+                essential coverage to capture the key moments of your wedding
+                day.
+              </p>
+            </div>
+            <span class="cs-price">$500</span>
+            <a href="" class="cs-link">
+              Book Now
+              <svg
+                class="cs-icon"
+                width="20"
+                height="21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.95 9.69 8.233 4.98A.833.833 0 1 0 7.05 6.156l4.125 4.167-4.125 4.125a.833.833 0 0 0 .27 1.36.834.834 0 0 0 .913-.184l4.717-4.71a.835.835 0 0 0 0-1.224Z"
+                  fill="var(--headerColor)" />
+              </svg>
+            </a>
+          </li>
+          <li class="cs-item">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Standard</h3>
+              <p class="cs-item-text">
+                Our Standard Plan provides a balanced experience with extended
+                coverage, including additional shots and more time to document
+                your special day."
+              </p>
+            </div>
+            <span class="cs-price">$1000</span>
+            <a href="" class="cs-link">
+              Book Now
+              <svg
+                class="cs-icon"
+                width="20"
+                height="21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.95 9.69 8.233 4.98A.833.833 0 1 0 7.05 6.156l4.125 4.167-4.125 4.125a.833.833 0 0 0 .27 1.36.834.834 0 0 0 .913-.184l4.717-4.71a.835.835 0 0 0 0-1.224Z"
+                  fill="var(--headerColor)" />
+              </svg>
+            </a>
+          </li>
+          <li class="cs-item">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Premium</h3>
+              <p class="cs-item-text">
+                The Premium Plan offers the ultimate wedding photography
+                experience, with full-day coverage, multiple photographers, and
+                a collection of beautifully edited images that tell the complete
+                story of your day.
+              </p>
+            </div>
+            <span class="cs-price">$2000</span>
+            <a href="" class="cs-link">
+              Book Now
+              <svg
+                class="cs-icon"
+                width="20"
+                height="21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.95 9.69 8.233 4.98A.833.833 0 1 0 7.05 6.156l4.125 4.167-4.125 4.125a.833.833 0 0 0 .27 1.36.834.834 0 0 0 .913-.184l4.717-4.71a.835.835 0 0 0 0-1.224Z"
+                  fill="var(--headerColor)" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img
+        class="cs-floater"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/flower12.png"
+        alt="flower"
+        loading="lazy"
+        aria-hidden="true"
+        width="378"
+        height="595" />
+    </section>
+
+    <!-- ============================================ -->
+    <!--                     FAQ                      -->
+    <!-- ============================================ -->
+
+    <section id="faq-2216">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">Frequently Asked Questions</span>
+          <h2 class="cs-title">Frequently Asked Questions</h2>
+          <div class="cs-wrapper">
+            <ul class="cs-faq-group">
+              <!-- Active class added as default -->
+              <li class="cs-faq-item active">
+                <button class="cs-button">
+                  <span class="cs-button-text">
+                    What does a process safety and reliability consultation firm
+                    do?
+                  </span>
+                </button>
+                <p class="cs-item-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  convallis nunc neque, bibendum pulvinar vitae commodo velit.
+                  Proin diam tortor sed malesuada nunc, habitant. Dignissim
+                  ipsum porta enim, magna urna, quam.
+                </p>
+              </li>
+              <li class="cs-faq-item">
+                <button class="cs-button">
+                  <span class="cs-button-text">
+                    Why is process safety important for my organization?
+                  </span>
+                </button>
+                <p class="cs-item-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  convallis nunc neque, bibendum pulvinar vitae commodo velit.
+                  Proin diam tortor sed malesuada nunc, habitant. Dignissim
+                  ipsum porta enim, magna urna, quam.
+                </p>
+              </li>
+              <li class="cs-faq-item">
+                <button class="cs-button">
+                  <span class="cs-button-text">
+                    How can your firm help improve our process safety and
+                    reliability?
+                  </span>
+                </button>
+                <p class="cs-item-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  convallis nunc neque, bibendum pulvinar vitae commodo velit.
+                  Proin diam tortor sed malesuada nunc, habitant. Dignissim
+                  ipsum porta enim, magna urna, quam.
+                </p>
+              </li>
+              <li class="cs-faq-item">
+                <button class="cs-button">
+                  <span class="cs-button-text">
+                    What industries does your firm serve?
+                  </span>
+                </button>
+                <p class="cs-item-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  convallis nunc neque, bibendum pulvinar vitae commodo velit.
+                  Proin diam tortor sed malesuada nunc, habitant. Dignissim
+                  ipsum porta enim, magna urna, quam.
+                </p>
+              </li>
+              <li class="cs-faq-item">
+                <button class="cs-button">
+                  <span class="cs-button-text">
+                    What qualifications and certifications do your consultants
+                    hold?
+                  </span>
+                </button>
+                <p class="cs-item-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  convallis nunc neque, bibendum pulvinar vitae commodo velit.
+                  Proin diam tortor sed malesuada nunc, habitant. Dignissim
+                  ipsum porta enim, magna urna, quam.
+                </p>
+              </li>
+            </ul>
+            <picture class="cs-picture">
+              <!--Mobile Image-->
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+                " />
+              <!--Tablet and above Image-->
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg
+                " />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding1.jpg"
+                alt="wedding photoshoot"
+                width="590"
+                height="801"
+                aria-hidden="true" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+
+    <section id="reviews-2244">
+      <div class="cs-container">
+        <div class="cs-content">
+          <div class="cs-wrapper">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">What Our Clients Say</h2>
+          </div>
+          <a aria-label="read more reviews" href="" class="cs-button-solid"
+            >Read More</a
+          >
+        </div>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  class="cs-image"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+                  alt="profile picture"
+                  width="64"
+                  height="64" />
+              </picture>
+              <img
+                class="cs-quote"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg"
+                alt="quote"
+                width="24"
+                height="20" />
+            </div>
+            <p class="cs-item-text">
+              "We couldn’t be happier with our wedding photos! Every moment was
+              captured beautifully, and we’ll treasure them forever. Thank you
+              for making our day even more special!"
+            </p>
+            <span class="cs-name"> Emily & John </span>
+          </li>
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  class="cs-image"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+                  alt="profile picture"
+                  width="64"
+                  height="64" />
+              </picture>
+              <img
+                class="cs-quote"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg"
+                alt="quote"
+                width="24"
+                height="20" />
+            </div>
+            <p class="cs-item-text">
+              "The team was fantastic! They made us feel at ease, and the photos
+              exceeded our expectations. We’re so happy with how our memories
+              were captured!"
+            </p>
+            <span class="cs-name"> Sarah & David </span>
+          </li>
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  class="cs-image"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+                  alt="profile picture"
+                  width="64"
+                  height="64" />
+              </picture>
+              <img
+                class="cs-quote"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg"
+                alt="quote"
+                width="24"
+                height="20" />
+            </div>
+            <p class="cs-item-text">
+              "Working with this team was a dream! They captured all the big
+              moments and the little details perfectly. We’re beyond grateful
+              for the beautiful photos!"
+            </p>
+            <span class="cs-name"> Chloe & Michael </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                     Quote                    -->
+    <!-- ============================================ -->
+
+    <section id="quote-2141">
+      <div class="cs-container">
+        <div class="cs-content">
+          <img
+            class="cs-quote-icon"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/beige-quote.svg"
+            alt="quote"
+            width="222"
+            height="186"
+            aria-hidden="true" />
+          <p class="cs-quote">
+            "We're not just photographers, we're dream weavers, transforming
+            your visions into tangible memories you'll cherish forever."
+          </p>
+          <span class="cs-name">Boulevard</span>
+          <span class="cs-job">CEO of Boulevard Web Design</span>
+        </div>
+      </div>
+      <img
+        class="cs-flower cs-left"
+        loading="lazy"
+        decoding="async"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/wedding-flower2.png"
+        alt="flower"
+        width="640"
+        height="324"
+        aria-hidden="true" />
+      <img
+        class="cs-flower cs-right"
+        loading="lazy"
+        decoding="async"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/wedding-flower1.png"
+        alt="flower"
+        width="640"
+        height="324"
+        aria-hidden="true" />
+    </section>
+
+    <!-- ============================================ -->
+    <!--                      CTA                     -->
+    <!-- ============================================ -->
+
+    <section id="cta-2236">
+      <div class="cs-container">
+        <div class="cs-content">
+          <h2 class="cs-title">Let’s Capture Your Love Story</h2>
+          <p class="cs-text">
+            Contact us today to book your wedding photography and create
+            timeless memories you'll cherish forever.
+          </p>
+          <a href="" class="cs-button-outline">Get Started</a>
+        </div>
+        <div class="cs-video-wrapper">
+          <!--Compress your video and upload it to a CDN like Digital Oceans Spaces so the video file doesn't cause load time issues. You can also remove the video tag and uncomment the picture tag to use a picture instead of a video.-->
+          <video
+            autoplay
+            loop
+            muted
+            loading="lazy"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Videos/wedding.mp4"></video>
+          <!-- <picture class="cs-picture">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding6.jpeg">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding6.jpeg">
+                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/wedding6.jpeg" alt="wedding" width="1720" height="547">
+            </picture> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Footer                      -->
+    <!-- ============================================ -->
+
+    <footer id="footer-1390">
+      <div class="cs-container">
+        <div class="cs-top">
+          <a aria-label="go back to home" class="cs-logo" href=""> logo </a>
+          <ul class="cs-ul">
+            <li class="cs-li">
+              <a href="" class="cs-link">Home</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">About</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Services</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Blog</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cs-bottom">
+          <!--Social-->
+          <ul class="cs-social">
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="facebook"
+                target="_blank"
+                rel="noopener">
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true" />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener">
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true" />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="instagram"
+                target="_blank"
+                rel="noopener">
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true" />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener">
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true" />
+              </a>
+            </li>
+          </ul>
+          <span class="cs-copyright">
+            © Copyright 2025 -
+            <a href="" class="cs-copyright-link">Boulevard Web Design</a>
+          </span>
+          <div class="cs-flex">
+            <a href="" class="cs-copyright-link">Privacy Policy</a>
+            <span class="cs-separater">|</span>
+            <a href="" class="cs-copyright-link">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
