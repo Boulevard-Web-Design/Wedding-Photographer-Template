@@ -158,10 +158,14 @@ html {
     opacity: 1;
   }
   #cs-navigation .cs-logo {
+    font-size: clamp(20px, 2vw, 36px);
+    color: var(--bodyTextColorWhite);
+    text-decoration: none;
+    font-weight: bold;
     width: 40%;
     max-width: 9.125rem;
     height: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 2rem;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     display: flex;
@@ -372,6 +376,10 @@ html {
     display: none;
   }
   #cs-navigation .cs-logo {
+    font-size: clamp(20px, 2vw, 36px);
+    color: var(--bodyTextColorWhite);
+    text-decoration: none;
+    font-weight: bold;
     width: 18.4%;
     max-width: 20rem;
     height: 100%;
@@ -543,8 +551,12 @@ html {
     color: var(--primary);
   }
   #footer-1390 .cs-logo {
+    font-size: clamp(20px, 2vw, 36px);
+    color: var(--bodyTextColorWhite);
+    text-decoration: none;
+    font-weight: bold;
     width: 100%;
-    max-width: 13.0625rem;
+    text-align: center;
     height: auto;
     display: block;
   }
